@@ -1,0 +1,117 @@
+# PROSITE Pattern Data (Curated Subset)
+#
+# This file contains a curated subset of PROSITE patterns for the
+# Protein Intelligence Agent motif scanner. For the full database,
+# download prosite.dat from ExPASy:
+#   https://ftp.expasy.org/databases/prosite/prosite.dat
+#
+# Format: Each entry has:
+#   AC  Accession number
+#   DE  Description  
+#   PA  Pattern (PROSITE syntax)
+#   //  End of entry
+#
+# The motif.py module ships with pre-compiled patterns and does not
+# require this file. However, this file can be parsed by an extended
+# version of the motif scanner for comprehensive coverage.
+#
+AC   PS00001
+DE   N-glycosylation site.
+PA   N-{P}-[ST]-{P}.
+//
+AC   PS00004
+DE   cAMP- and cGMP-dependent protein kinase phosphorylation site.
+PA   [RK](2)-x-[ST].
+//
+AC   PS00005
+DE   Protein kinase C phosphorylation site.
+PA   [ST]-x-[RK].
+//
+AC   PS00006
+DE   Casein kinase II phosphorylation site.
+PA   [ST]-x(2)-[DE].
+//
+AC   PS00008
+DE   N-myristoylation site.
+PA   G-{EDRKHPFYW}-x(2)-[STAGCN]-{P}.
+//
+AC   PS00010
+DE   Leucine zipper pattern.
+PA   L-x(6)-L-x(6)-L-x(6)-L.
+//
+AC   PS00015
+DE   Nuclear localization signal.
+PA   K-R-[LIVMFYAT]-x-K-[RK].
+//
+AC   PS00027
+DE   Homeobox domain signature.
+PA   [LIVMFYG]-{SH}-[LIVMFYGS]-[EQ]-[LIVMA]-x(2)-[LIVMFYA]-x(3)-[LIVMF]-x(2)-K-[LIVMF]-x(3)-[LIVMF].
+//
+AC   PS00028
+DE   Zinc finger, C2H2 type, domain.
+PA   C-x(2,4)-C-x(3)-[LIVMFYWC]-x(8)-H-x(3,5)-H.
+//
+AC   PS00107
+DE   Protein kinase C-terminal domain signature.
+PA   [LIVMFYC]-x-[HY]-x-D-[LIVMFY]-K-x(2)-N-[LIVMFYCT](3).
+//
+AC   PS00108
+DE   Protein kinase ATP-binding region signature.
+PA   [LIVMFYC]-G-{P}-G-{P}-[FYWMGSTNH]-[SGA]-{PW}-[LIVCAT]-{PD}-x-[GSTACLIVMFY]-x(5,18)-[LIVMFYWCSTAR]-[APTS]-[LIVMFYSTAGCQ]-K.
+//
+AC   PS00124
+DE   Serine proteases, trypsin family, histidine active site.
+PA   [LIVMFYAG]-[LIVMSTAG]-[LIVFYMS]-D-[ST]-G-[STAG].
+//
+AC   PS00125
+DE   Serine proteases, trypsin family, serine active site.
+PA   G-D-S-G-G-[LIVMFY].
+//
+AC   PS00190
+DE   Cytochrome c family heme-binding site signature.
+PA   C-{CPWHF}-{CPWR}-C-H-{CFYW}.
+//
+AC   PS00194
+DE   Thioredoxin family active site.
+PA   [LIVMF]-[LIVMSTAGY]-x-[LIVMFYC]-x(2)-C-x(2)-C-[LIVMFYA].
+//
+AC   PS00196
+DE   EF-hand calcium-binding domain.
+PA   D-{W}-[DNS]-{ILVFYW}-[DENSTG]-[DNQGHRK]-{GP}-[LIVMC]-[DENQSTAGC]-x(2)-[DE]-[LIVMFYW].
+//
+AC   PS00211
+DE   ABC transporters family signature.
+PA   [LIVMFY]-S-[GS]-G-x(3)-[RKA]-[LIVMYA]-x-[LIVMF]-[AG].
+//
+AC   PS00237
+DE   G-protein coupled receptors family 1 signature.
+PA   [GSTALIVMYWC]-[GSTANCPDE]-{EDPKRH}-x(2)-[LIVMNQGA]-x(2)-[LIVMFT]-[GSTANC]-[LIVMFYWSTAC]-[DENH]-R-[FYWCSH]-x(2)-[LIVM].
+//
+AC   PS00240
+DE   Receptor L domain signature.
+PA   C-x(5)-C-x(3)-[LIVMFYAH]-x(3)-[LIVMFYA]-x(3,4)-C.
+//
+AC   PS00290
+DE   Immunoglobulin domain.
+PA   [FY]-x-C-x-[VA]-x-H.
+//
+AC   PS00674
+DE   ATP synthase alpha and beta subunits signature.
+PA   [LIVMFYAG]-G-x(4)-[LIVMFA]-G-D-[LIVMGA]-x-[GASC]-[LIVMFAT]-x-R.
+//
+AC   PS00678
+DE   WD repeat signature.
+PA   [LIVMSTAC]-x(2)-[LIVMFYWSTAGC]-[FYWSTAGC]-[DENSHQ]-x-[LIVMSTAG]-W-D.
+//
+AC   PS01033
+DE   Globin family profile.
+PA   [LIVMFYW]-x-[LIVMFYW]-x(3)-H-x(3)-[LIVMFY]-x(3,5)-[LIVMFYW].
+//
+AC   PS50001
+DE   SH2 domain.
+PA   [LIVMFY]-x-[LIVMFY]-x(3)-[LIVMFYC]-x(2)-[GSTALIV]-x(5,10)-[LIVMFYW]-x-[LIVMFYW]-x-[LIVMFYW].
+//
+AC   PS50311
+DE   EGF-like domain.
+PA   C-x(2,7)-C-x(3,14)-C-x(1,3)-[GSTAPIMVQH]-x(0,6)-C.
+//

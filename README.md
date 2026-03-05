@@ -68,6 +68,18 @@ streamlit run app.py
 ```
 
 ---
+## 📸 Application Screenshots
+
+### Input Interface
+![Input](screenshots/Dashboard.png)
+
+### Analysis Results
+![Results](screenshots/Results.png)
+
+### 3D Structure Viewer
+![3D Viewer](screenshots/Viewer.png)
+
+---
 
 ## 🎨 Interactive 3D Viewer
 
@@ -101,6 +113,7 @@ _(Note: Secondary structure is derived strictly from experimental PDB headers; I
 - **Caching**: `diskcache`
 - **Visualization**: [3Dmol.js](https://3dmol.csb.pitt.edu/), [Matplotlib](https://matplotlib.org/)
 - **External Services**: NCBI BLAST, RCSB PDB, AlphaFold DB, EBI Clustal Omega, UniProt REST API
+
 
 
 

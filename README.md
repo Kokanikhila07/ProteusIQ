@@ -1,4 +1,4 @@
-# 🧬 ProteusIQ – Protein Intelligence & Structural Analysis
+# 🧬 ProteusIQ – Protein Sequence & Structural Analysis
 
 **ProteusIQ** is a comprehensive, scientifically rigorous platform for the structural and evolutionary analysis of protein sequences. It unifies biophysical property calculation, evolutionary conservation scoring, 3D structural visualization, and functional inference into a single, highly optimized web interface.
 
@@ -101,5 +101,6 @@ _(Note: Secondary structure is derived strictly from experimental PDB headers; I
 - **Caching**: `diskcache`
 - **Visualization**: [3Dmol.js](https://3dmol.csb.pitt.edu/), [Matplotlib](https://matplotlib.org/)
 - **External Services**: NCBI BLAST, RCSB PDB, AlphaFold DB, EBI Clustal Omega, UniProt REST API
+
 
 
